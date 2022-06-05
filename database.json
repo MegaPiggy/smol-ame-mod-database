@@ -137,6 +137,23 @@
                 "htmlUrl": "https://github.com/MegaPiggy/OhF__k/blob/master/README.md",
                 "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OhF__k/master/README.md"
             }
+        },
+        {
+            "id": "richpresence",
+            "name": "Discord Rich Presence",
+            "description": "Adds Discord integration into Smol Ame.",
+            "author": "MegaPiggy",
+            "downloadUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/releases/download/1.0/DiscordRpcInstaller.exe",
+            "nexusUrl": "https://www.nexusmods.com/smolame/mods/11",
+            "downloadCount": 0,
+            "latestReleaseDate": "2022-06-05T20:35:07Z",
+            "firstReleaseDate": "2022-06-05T20:35:07Z",
+            "repo": "https://github.com/MegaPiggy/SmolAmeDiscordRpc",
+            "version": "1.0.0",
+            "readme": {
+                "htmlUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/blob/master/README.md",
+                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SmolAmeDiscordRpc/master/README.md"
+            }
         }
     ]
   }
