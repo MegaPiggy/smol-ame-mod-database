@@ -121,9 +121,14 @@ export async function fetchMods(modsJson: string) {
     const asset = release.assets.find((asset) => asset.browser_download_url.endsWith("dll") || 
     asset.browser_download_url.endsWith("exe")) ?? release.assets[0];
 
+    let downloadCount = 0;
+    for (let i = 0; i < release.assets.length; i++) {
+      downloadCount += release.assets[i].download_count;
+    }
+
     return {
       downloadUrl: asset.browser_download_url,
-      downloadCount: asset.download_count,
+      downloadCount: downloadCount,
       version: release.tag_name,
       date: asset.created_at,
       description: release.body,
