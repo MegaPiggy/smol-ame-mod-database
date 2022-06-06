@@ -1,159 +1,159 @@
 {
-    "salt": {
-        "id": "salt",
-        "name": "SALT",
-        "description": "The mod loader and mod framework for Smol Ame",
-        "author": "MegaPiggy",
-        "required": true,
-        "utility": true,
-        "downloadUrl": "https://github.com/MegaPiggy/SALT/releases/download/1.3/SALTInstaller.exe",
-        "nexusUrl": "https://www.nexusmods.com/smolame/mods/1",
-        "downloadCount": 0,
-        "latestReleaseDate": "2022-02-27T04:15:32Z",
-        "firstReleaseDate": "2021-05-25T22:48:36Z",
-        "repo": "https://github.com/MegaPiggy/SALT",
-        "version": "1.3.0",
-        "readme": {
-            "htmlUrl": "https://github.com/MegaPiggy/SALT/blob/main/README.md",
-            "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SALT/main/README.md"
-        }
+  "salt": {
+    "id": "salt",
+    "name": "SALT",
+    "description": "The mod loader and mod framework for Smol Ame",
+    "author": "MegaPiggy",
+    "required": true,
+    "utility": true,
+    "downloadUrl": "https://github.com/MegaPiggy/SALT/releases/download/1.3/SALTInstaller.exe",
+    "nexusUrl": "https://www.nexusmods.com/smolame/mods/1",
+    "downloadCount": 79,
+    "latestReleaseDate": "2022-02-27T03:19:31Z",
+    "firstReleaseDate": "2021-05-25T22:32:59Z",
+    "repo": "MegaPiggy/SALT",
+    "version": "1.3",
+    "readme": {
+      "htmlUrl": "https://github.com/MegaPiggy/SALT/blob/main/README.md",
+      "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SALT/main/README.md"
+    }
+  },
+  "releases": [
+    {
+      "name": "Infinite Jump",
+      "id": "infinitejump",
+      "description": "Makes it so you can jump without touching the ground! Mod for Smol Ame using SALT.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/InfiniteJump/releases/download/1.0.1/InfiniteJump.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/2",
+      "downloadCount": 1,
+      "latestReleaseDate": "2021-11-20T02:22:31Z",
+      "firstReleaseDate": "2021-11-20T02:22:31Z",
+      "repo": "https://github.com/MegaPiggy/InfiniteJump",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/InfiniteJump/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InfiniteJump/main/README.md"
+      }
     },
-    "releases": [
-        {
-            "id": "infinitejump",
-            "name": "Infinite Jump",
-            "description": "Makes it so you can jump without touching the ground!",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/InfiniteJump/releases/download/1.0.1/InfiniteJump.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/2",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-11-20T02:22:36Z",
-            "firstReleaseDate": "2021-11-20T02:22:36Z",
-            "repo": "https://github.com/MegaPiggy/InfiniteJump",
-            "version": "1.0.1",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/InfiniteJump/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InfiniteJump/master/README.md"
-            }
-        },
-        {
-            "id": "increasedspeed",
-            "name": "Increased Speed",
-            "description": "Makes you move 2 times faster.",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/IncreasedSpeed/releases/download/1.1.0/IncreasedSpeed.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/3",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-11-20T02:43:18Z",
-            "firstReleaseDate": "2021-11-20T02:43:18Z",
-            "repo": "https://github.com/MegaPiggy/IncreasedSpeed",
-            "version": "1.1.0",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/IncreasedSpeed/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/IncreasedSpeed/master/README.md"
-            }
-        },
-        {
-            "id": "slowgroundpound",
-            "name": "Slower Ground Pound",
-            "description": "Slows down the speed of falling when ground pounding.",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/SlowerGroundPound/releases/download/1.0.1/SlowerGroundPound.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/4",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-11-20T02:13:32Z",
-            "firstReleaseDate": "2021-11-20T02:13:32Z",
-            "repo": "https://github.com/MegaPiggy/SlowerGroundPound",
-            "version": "1.0.1",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/SlowerGroundPound/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SlowerGroundPound/master/README.md"
-            }
-        },
-        {
-            "id": "beeg_ame",
-            "name": "Beeg Ame",
-            "description": "Adds a playable giant version of amelia.",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/BeegAme/releases/download/1.0.2/BeegAme.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/5",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-11-20T02:58:38Z",
-            "firstReleaseDate": "2021-11-20T02:58:38Z",
-            "repo": "https://github.com/MegaPiggy/BeegAme",
-            "version": "1.0.2",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/BeegAme/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BeegAme/master/README.md"
-            }
-        },
-        {
-            "id": "SmolTAS",
-            "name": "SmolTAS",
-            "description": "A mod that can help make tool assisted speedruns (TAS) for the game.",
-            "author": "Sh1r0Yaksha",
-            "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/8",
-            "downloadCount": 0,
-            "latestReleaseDate": "2022-01-13T13:20:24Z",
-            "firstReleaseDate": "2021-08-01T14:41:43Z",
-            "repo": "https://github.com/Sh1r0Yaksha/SmolTAS",
-            "version": "3.1.1",
-            "readme": {
-                "htmlUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/SmolTAS/master/README.md"
-            }
-        },
-        {
-            "id": "poisonousbubba",
-            "name": "Poisonous Bubba",
-            "description": "Touch bubba and you have to reset",
-            "author": "Sh1r0Yaksha",
-            "downloadUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/releases/download/v1.0/Poisonous.bubba.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/9",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-10-31T14:36:57Z",
-            "firstReleaseDate": "2021-10-31T14:36:57Z",
-            "repo": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod",
-            "version": "1.0.0",
-            "readme": {
-                "htmlUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/Poisonous-bubba-Mod/master/README.md"
-            }
-        },
-        {
-            "id": "ohfuck",
-            "name": "Oh F__k",
-            "description": "Adds an \"oh f__k\" death sound to amelia.",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/OhF__k/releases/download/1.0/OhFuck.dll",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/10",
-            "downloadCount": 0,
-            "latestReleaseDate": "2021-12-24T08:12:43Z",
-            "firstReleaseDate": "2021-12-24T08:12:43Z",
-            "repo": "https://github.com/MegaPiggy/OhF__k",
-            "version": "1.0.0",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/OhF__k/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OhF__k/master/README.md"
-            }
-        },
-        {
-            "id": "richpresence",
-            "name": "Discord Rich Presence",
-            "description": "Adds Discord integration into Smol Ame.",
-            "author": "MegaPiggy",
-            "downloadUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/releases/download/1.0/DiscordRpcInstaller.exe",
-            "nexusUrl": "https://www.nexusmods.com/smolame/mods/11",
-            "downloadCount": 0,
-            "latestReleaseDate": "2022-06-05T20:35:07Z",
-            "firstReleaseDate": "2022-06-05T20:35:07Z",
-            "repo": "https://github.com/MegaPiggy/SmolAmeDiscordRpc",
-            "version": "1.0.0",
-            "readme": {
-                "htmlUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/blob/master/README.md",
-                "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SmolAmeDiscordRpc/master/README.md"
-            }
-        }
-    ]
-  }
+    {
+      "name": "Increased Speed",
+      "id": "increasedspeed",
+      "description": "Makes you move 2 times faster. Mod for Smol Ame using SALT.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/IncreasedSpeed/releases/download/1.1.0/IncreasedSpeed.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/3",
+      "downloadCount": 2,
+      "latestReleaseDate": "2021-11-20T02:43:14Z",
+      "firstReleaseDate": "2021-11-20T02:43:14Z",
+      "repo": "https://github.com/MegaPiggy/IncreasedSpeed",
+      "version": "1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/IncreasedSpeed/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/IncreasedSpeed/main/README.md"
+      }
+    },
+    {
+      "name": "Slower Ground Pound",
+      "id": "slowgroundpound",
+      "description": "Slows down the speed of falling when ground pounding. Mod for Smol Ame using SALT.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/SlowerGroundPound/releases/download/1.0.1/SlowerGroundPound.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/4",
+      "downloadCount": 0,
+      "latestReleaseDate": "2021-11-20T02:13:18Z",
+      "firstReleaseDate": "2021-11-20T02:13:18Z",
+      "repo": "https://github.com/MegaPiggy/SlowerGroundPound",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/SlowerGroundPound/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SlowerGroundPound/main/README.md"
+      }
+    },
+    {
+      "name": "Beeg Ame",
+      "id": "beeg_ame",
+      "description": "Adds a playable giant version of amelia. Mod for Smol Ame using SALT.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/BeegAme/releases/download/1.0.2/BeegAme.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/5",
+      "downloadCount": 0,
+      "latestReleaseDate": "2021-11-20T02:58:32Z",
+      "firstReleaseDate": "2021-11-20T02:58:32Z",
+      "repo": "https://github.com/MegaPiggy/BeegAme",
+      "version": "1.0.2",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/BeegAme/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BeegAme/main/README.md"
+      }
+    },
+    {
+      "name": "SmolTAS",
+      "id": "SmolTAS",
+      "description": "A mod for Smol Ame game which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
+      "author": "Sh1r0Yaksha",
+      "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/8",
+      "downloadCount": 74,
+      "latestReleaseDate": "2022-01-13T13:20:17Z",
+      "firstReleaseDate": "2021-08-05T05:48:20Z",
+      "repo": "https://github.com/Sh1r0Yaksha/SmolTAS",
+      "version": "3.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/SmolTAS/master/README.md"
+      }
+    },
+    {
+      "name": "Poisonous Bubba",
+      "id": "poisonousbubba",
+      "description": "A mod for smol ame which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
+      "author": "Sh1r0Yaksha",
+      "downloadUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/releases/download/v1.0/Poisonous.bubba.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/9",
+      "downloadCount": 1,
+      "latestReleaseDate": "2021-10-31T14:36:51Z",
+      "firstReleaseDate": "2021-10-31T14:36:51Z",
+      "repo": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod",
+      "version": "v1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/Poisonous-bubba-Mod/master/README.md"
+      }
+    },
+    {
+      "name": "Oh F__k",
+      "id": "ohfuck",
+      "description": "Adds an \"oh f__k\" death sound to amelia. Mod for Smol Ame using SALT.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/OhF__k/releases/download/1.0/OhFuck.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/10",
+      "downloadCount": 3,
+      "latestReleaseDate": "2021-12-24T08:12:29Z",
+      "firstReleaseDate": "2021-12-24T08:12:29Z",
+      "repo": "https://github.com/MegaPiggy/OhF__k",
+      "version": "1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/OhF__k/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OhF__k/main/README.md"
+      }
+    },
+    {
+      "name": "Discord Rich Presence",
+      "id": "richpresence",
+      "description": "Adds Discord integration into Smol Ame.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/releases/download/1.0/DiscordRichPresencePortable.zip",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/11",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-06-05T20:34:44Z",
+      "firstReleaseDate": "2022-06-05T20:34:44Z",
+      "repo": "https://github.com/MegaPiggy/SmolAmeDiscordRpc",
+      "version": "1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SmolAmeDiscordRpc/main/README.md"
+      }
+    }
+  ]
+}
