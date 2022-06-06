@@ -22,7 +22,7 @@
     {
       "name": "Infinite Jump",
       "id": "infinitejump",
-      "description": "Makes it so you can jump without touching the ground! Mod for Smol Ame using SALT.",
+      "description": "Makes it so you can jump without touching the ground!",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/InfiniteJump/releases/download/1.0.1/InfiniteJump.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/2",
@@ -39,7 +39,7 @@
     {
       "name": "Increased Speed",
       "id": "increasedspeed",
-      "description": "Makes you move 2 times faster. Mod for Smol Ame using SALT.",
+      "description": "Makes you move 2 times faster.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/IncreasedSpeed/releases/download/1.1.0/IncreasedSpeed.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/3",
@@ -56,7 +56,7 @@
     {
       "name": "Slower Ground Pound",
       "id": "slowgroundpound",
-      "description": "Slows down the speed of falling when ground pounding. Mod for Smol Ame using SALT.",
+      "description": "Slows down the speed of falling when ground pounding.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/SlowerGroundPound/releases/download/1.0.1/SlowerGroundPound.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/4",
@@ -73,7 +73,7 @@
     {
       "name": "Beeg Ame",
       "id": "beeg_ame",
-      "description": "Adds a playable giant version of amelia. Mod for Smol Ame using SALT.",
+      "description": "Adds a playable giant version of amelia.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/BeegAme/releases/download/1.0.2/BeegAme.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/5",
@@ -90,7 +90,7 @@
     {
       "name": "SmolTAS",
       "id": "SmolTAS",
-      "description": "A mod for Smol Ame game which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
+      "description": "A mod which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
       "author": "Sh1r0Yaksha",
       "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/8",
@@ -107,7 +107,7 @@
     {
       "name": "Poisonous Bubba",
       "id": "poisonousbubba",
-      "description": "A mod for smol ame which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
+      "description": "A mod which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
       "author": "Sh1r0Yaksha",
       "downloadUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/releases/download/v1.0/Poisonous.bubba.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/9",
@@ -124,7 +124,7 @@
     {
       "name": "Oh F__k",
       "id": "ohfuck",
-      "description": "Adds an \"oh f__k\" death sound to amelia. Mod for Smol Ame using SALT.",
+      "description": "Adds an \"oh f__k\" death sound to amelia.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/OhF__k/releases/download/1.0/OhFuck.dll",
       "nexusUrl": "https://nexusmods.com/smolame/mods/10",
