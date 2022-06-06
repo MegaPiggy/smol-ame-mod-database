@@ -156,8 +156,17 @@ export async function fetchMods(modsJson: string, getNexusModInfo: (id: number) 
           const prereleases = getCleanedUpReleaseList(prereleaseList);
           const cleanLatestRelease = getCleanedUpRelease(latestRelease);
           const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
-          const nexus = modInfo.nexusId ? `${NEXUS_URL_BASE}/${modInfo.nexusId}` : undefined;
-          const nexusDownloadCount = modInfo.nexusId ? (await getNexusModInfo(modInfo.nexusId)).mod_downloads : 0;
+          let nexusUrl =  undefined;
+          let nexusDownloadCount = 0;
+          let nexusCreationTime = undefined;
+          let nexusUpdateTime = undefined;
+          if (modInfo.nexusId){
+            const nexusModInfo = await getNexusModInfo(modInfo.nexusId);
+            nexusUrl = `${NEXUS_URL_BASE}/${modInfo.nexusId}`;
+            nexusDownloadCount = nexusModInfo.mod_downloads;
+            nexusCreationTime = nexusModInfo.created_time.replace(".000+00:00","Z");
+            nexusUpdateTime = nexusModInfo.updated_time.replace(".000+00:00","Z");
+          }
 
           console.log("releases", toJsonString(releases));
           console.log("prereleases", toJsonString(prereleases));
@@ -191,10 +200,12 @@ export async function fetchMods(modsJson: string, getNexusModInfo: (id: number) 
             utility: modInfo.utility,
             parent: modInfo.parent,
             downloadUrl: cleanLatestRelease.downloadUrl,
-            nexusUrl: nexus,
+            nexusUrl,
             downloadCount: totalDownloadCount,
             latestReleaseDate: cleanLatestRelease.date,
             firstReleaseDate: firstRelease.date,
+            nexusCreationTime,
+            nexusUpdateTime,
             repo,
             version: cleanLatestRelease.version,
             readme,

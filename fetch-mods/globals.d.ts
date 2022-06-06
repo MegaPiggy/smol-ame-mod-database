@@ -39,4 +39,6 @@ interface Mod extends Release {
   firstReleaseDate: string;
   latestReleaseDescription: string;
   latestPrereleaseDescription: string;
+  nexusCreationTime?: string;
+  nexusUpdateTime?: string;
 }

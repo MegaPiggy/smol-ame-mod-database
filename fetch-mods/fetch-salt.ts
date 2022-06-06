@@ -68,6 +68,8 @@ export async function fetchSALT(nexusModInfo: IModInfo) {
   const exeAsset = assets.find((asset) => asset.name.endsWith(".exe"));
 
   const totalDownloadCount = saltDownloadCount + nexusModInfo.mod_downloads;
+  const nexusCreationTime = nexusModInfo.created_time.replace(".000+00:00","Z");
+  const nexusUpdateTime = nexusModInfo.updated_time.replace(".000+00:00","Z");
 
   return {
     id: saltMod.id,
@@ -81,6 +83,8 @@ export async function fetchSALT(nexusModInfo: IModInfo) {
     downloadCount: totalDownloadCount,
     latestReleaseDate: saltLatestRelease.created_at,
     firstReleaseDate: saltFirstRelease.created_at,
+    nexusCreationTime,
+    nexusUpdateTime,
     repo: saltRepository,
     version: saltLatestRelease.tag_name,
     readme
