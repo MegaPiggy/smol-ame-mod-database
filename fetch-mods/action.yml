@@ -8,6 +8,9 @@ inputs:
   GITHUB_TOKEN:
     description: "GitHub Token for Octokit authentication"
     required: true
+  nexus-api-key:
+    description: "Nexus api key"
+    required: true
   discord-hook-url:
     description: "Secret Discord hook url with token"
     required: true

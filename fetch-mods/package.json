@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
+    "@megapiggy/nexus-api": "1.1.5",
     "@octokit/action": "^3.18.0",
     "@octokit/plugin-retry": "^3.0.9",
     "@octokit/plugin-throttling": "^3.6.2",

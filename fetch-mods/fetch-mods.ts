@@ -1,10 +1,11 @@
+import { IModInfo } from "@megapiggy/nexus-api";
 import { getOctokit } from "./get-octokit";
 import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
 const NEXUS_URL_BASE = "https://nexusmods.com/smolame/mods";
 
-export async function fetchMods(modsJson: string) {
+export async function fetchMods(modsJson: string, getNexusModInfo: (id: number) => Promise<IModInfo>) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
   const octokit = getOctokit();
 
@@ -156,6 +157,7 @@ export async function fetchMods(modsJson: string) {
           const cleanLatestRelease = getCleanedUpRelease(latestRelease);
           const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
           const nexus = modInfo.nexusId ? `${NEXUS_URL_BASE}/${modInfo.nexusId}` : undefined;
+          const nexusDownloadCount = modInfo.nexusId ? (await getNexusModInfo(modInfo.nexusId)).mod_downloads : 0;
 
           console.log("releases", toJsonString(releases));
           console.log("prereleases", toJsonString(prereleases));
@@ -166,7 +168,7 @@ export async function fetchMods(modsJson: string) {
               return accumulator + release.downloadCount;
             },
             0
-          );
+          ) + nexusDownloadCount;
 
           const splitRepo = modInfo.repo.split("/");
           const githubRepository = (

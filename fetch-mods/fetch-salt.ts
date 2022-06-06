@@ -1,3 +1,4 @@
+import { IModInfo } from "@megapiggy/nexus-api";
 import { getOctokit } from "./get-octokit";
 
 const saltRepo = {
@@ -15,7 +16,7 @@ const saltMod = {
   nexusUrl: "https://www.nexusmods.com/smolame/mods/1",
 }
 
-export async function fetchSALT() {
+export async function fetchSALT(nexusModInfo: IModInfo) {
   const octokit = getOctokit();
 
   const saltRepository = saltRepo.owner+'/'+saltRepo.repo;
@@ -66,11 +67,7 @@ export async function fetchSALT() {
   const assets = saltLatestRelease.assets;
   const exeAsset = assets.find((asset) => asset.name.endsWith(".exe"));
 
-  const saltGithub = {
-    version: saltLatestRelease.tag_name,
-    downloadUrl: exeAsset?.browser_download_url,
-    downloadCount: saltDownloadCount,
-  };
+  const totalDownloadCount = saltDownloadCount + nexusModInfo.mod_downloads;
 
   return {
     id: saltMod.id,
@@ -79,13 +76,13 @@ export async function fetchSALT() {
     author: saltMod.author,
     required: saltMod.required,
     utility: saltMod.utility,
-    downloadUrl: saltGithub.downloadUrl,
+    downloadUrl: exeAsset?.browser_download_url,
     nexusUrl: saltMod.nexusUrl,
-    downloadCount: saltGithub.downloadCount,
+    downloadCount: totalDownloadCount,
     latestReleaseDate: saltLatestRelease.created_at,
     firstReleaseDate: saltFirstRelease.created_at,
     repo: saltRepository,
-    version: saltGithub.version,
+    version: saltLatestRelease.tag_name,
     readme
   }
 }

@@ -2,12 +2,15 @@ import * as core from "@actions/core";
 import { sendDiscordNotifications } from "./send-discord-notifications";
 import { fetchMods } from "./fetch-mods";
 import { getDiff } from "./get-diff";
+import { initializeNexus } from "./nexus";
 import { getPreviousDatabase } from "./get-previous-database";
 import { fetchSALT } from "./fetch-salt";
 import { toJsonString } from "./to-json-string";
+import Nexus from "@megapiggy/nexus-api";
 
 enum Input {
   mods = "mods",
+  nexusApiKey = "nexus-api-key",
   discordHookUrl = "discord-hook-url",
   discordModHookUrls = "discord-mod-hook-urls",
 }
@@ -24,9 +27,12 @@ function getCleanedUpModList(modList: Mod[]) {
 
 async function run() {
   try {
-    const salt = await fetchSALT();
+    const getNexusModInfo = await initializeNexus(core.getInput(Input.nexusApiKey));
 
-    const nextDatabase = await fetchMods(core.getInput(Input.mods));
+    const saltNexusInfo = await getNexusModInfo(1);
+    const salt = await fetchSALT(saltNexusInfo);
+
+    const nextDatabase = await fetchMods(core.getInput(Input.mods), getNexusModInfo);
 
     const databaseJson = toJsonString({
       salt,

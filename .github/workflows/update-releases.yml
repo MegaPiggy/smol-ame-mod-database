@@ -46,6 +46,7 @@ jobs:
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ steps.local-mods.outputs.mods }}"
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
+          nexus-api-key: "${{ secrets.NEXUS_KEY }}"
       - uses: actions/checkout@v2
         with:
           ref: "main"
