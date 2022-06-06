@@ -1,0 +1,56 @@
+name: Add new mod / edit existing mod
+description: Request for a new mod to be added to the database, or edit an existing mod.
+title: "[Your mod name here]"
+labels: ["add-mod"]
+assignees:
+  - MegaPiggy
+body:
+  - type: input
+    id: discordId
+    attributes:
+      label: Your Discord Name
+      description: "This is just so I know who you are."
+      placeholder: MegaPiggy#9957
+  - type: input
+    id: id
+    attributes:
+      label: Mod ID
+      description: "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match id from your mod's `modinfo.json`. If you're editing an existing mod, this must match the `id` of that mod. This property can't be edited."
+      placeholder: modtemplate
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Mod name
+      description: Human-readable title for your mod. If you want to change your mod's name later, you'll need to request a change to the database again.
+      placeholder: Smol Ame Mod Template
+    validations:
+      required: true
+  - type: input
+    id: repoUrl
+    attributes:
+      label: GitHub repository URL
+      description: GitHub repository that contains the mod's source code and releases.
+      placeholder: https://github.com/MegaPiggy/SmolAmeModTemplate
+    validations:
+      required: true
+  - type: input
+    id: nexusUrl
+    attributes:
+      label: Nexus mods URL
+      description: Alternate download link for the releases of your mod.
+      placeholder: https://www.nexusmods.com/smolame/mods/1
+  - type: input
+    id: parent
+    attributes:
+      label: Parent id
+      description: If this mod is an addon for another mod, place the parent's id here.
+      placeholder: modtemplateparent
+  - type: dropdown
+    id: utility
+    attributes:
+      label: Utility mod
+      description: Select "Is utility" if this mod isn't useful by itself, and only serves as a dependency for other mods.
+      options:
+        - "Is utility"

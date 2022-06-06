@@ -1,0 +1,64 @@
+name: PR from Issue
+on:
+  issues:
+    types: [opened, reopened, edited]
+concurrency: "main"
+jobs:
+  pr_from_issue:
+    # Skipping label check for now, since issues created from the addon uploader can't set labels.
+    # if: ${{ contains(github.event.issue.labels.*.name, 'add-mod') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - uses: stefanbuck/github-issue-parser@v2
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add-mod.yml
+
+      - name: Get local Mod Database file
+        id: local-mods
+        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.23.6
+          run_install: true
+
+      - name: Build
+        run: |
+          cd modify-mod-list
+          pnpm run build
+
+      - id: modify-mod-list
+        uses: ./modify-mod-list
+        with:
+          github-token: ${{ secrets.GH_TOKEN }}
+          form: "${{ steps.issue-parser.outputs.jsonString }}"
+          mods: "${{ steps.local-mods.outputs.mods }}"
+
+      - name: Write mods list to file
+        uses: DamianReeves/write-file-action@v1.0
+        with:
+          path: mods.json
+          contents: "${{ steps.modify-mod-list.outputs.mods }}"
+          write-mode: overwrite
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: "${{steps.modify-mod-list.outputs.edited-existing-mod && 'Edit existing mod:' || 'Add new mod:'}} ${{fromJSON(steps.issue-parser.outputs.jsonString).id}}"
+          commit-message: "${{steps.modify-mod-list.outputs.edited-existing-mod && 'Edit existing mod:' || 'Add new mod:'}} ${{fromJSON(steps.issue-parser.outputs.jsonString).id}}"
+          body: "Closes #${{ github.event.issue.number }}\n${{fromJSON(steps.issue-parser.outputs.jsonString).repoUrl}}"
+          branch-suffix: random
+          delete-branch: true
+          token: ${{ secrets.GH_TOKEN }}
+          commiter: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          labels: "add-mod"

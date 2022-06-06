@@ -1,0 +1,22 @@
+name: "Get mods"
+description: "Gets mod releases"
+inputs:
+  mods:
+    description: "JSON list of mods to check"
+    required: true
+    default: "[]"
+  GITHUB_TOKEN:
+    description: "GitHub Token for Octokit authentication"
+    required: true
+  discord-hook-url:
+    description: "Secret Discord hook url with token"
+    required: true
+  discord-mod-hook-urls:
+    description: "JSON object where keys are the id of a mod, and the values are the Discord hook urls of the channel where update notifications should be sent to."
+    required: true
+outputs:
+  releases:
+    description: "JSON list of latest mod releases"
+runs:
+  using: "node16"
+  main: "build/index.js"

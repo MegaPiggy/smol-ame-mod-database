@@ -1,0 +1,21 @@
+name: "Modify mod list"
+description: "Modifies the mod list based on a mod submission issue"
+inputs:
+  github-token:
+    description: "Token for GitHub authentication"
+    required: true
+  form:
+    description: "JSON data from issue form"
+    required: true
+  mods:
+    description: "Initial JSON list to modify"
+    required: true
+    default: "[]"
+outputs:
+  mods:
+    description: "Updated JSON list of mods"
+  edited-existing-mod:
+    description: "True when an existing mod has been edited, false when a new mod was created."
+runs:
+  using: "node16"
+  main: "build/index.js"

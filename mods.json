@@ -1,0 +1,50 @@
+[
+  {
+    "id": "infinitejump",
+    "nexusId": 2,
+    "name": "Infinite Jump",
+    "repo": "MegaPiggy/InfiniteJump"
+  },
+  {
+    "id": "increasedspeed",
+    "nexusId": 3,
+    "name": "Increased Speed",
+    "repo": "MegaPiggy/IncreasedSpeed"
+  },
+  {
+    "id": "slowgroundpound",
+    "nexusId": 4,
+    "name": "Slower Ground Pound",
+    "repo": "MegaPiggy/SlowerGroundPound"
+  },
+  {
+    "id": "beeg_ame",
+    "nexusId": 5,
+    "name": "Beeg Ame",
+    "repo": "MegaPiggy/BeegAme"
+  },
+  {
+    "id": "SmolTAS",
+    "nexusId": 8,
+    "name": "SmolTAS",
+    "repo": "Sh1r0Yaksha/SmolTAS"
+  },
+  {
+    "id": "poisonousbubba",
+    "nexusId": 9,
+    "name": "Poisonous Bubba",
+    "repo": "Sh1r0Yaksha/Poisonous-bubba-Mod"
+  },
+  {
+    "id": "ohfuck",
+    "nexusId": 10,
+    "name": "Oh F__k",
+    "repo": "MegaPiggy/OhF__k"
+  },
+  {
+    "id": "richpresence",
+    "nexusId": 11,
+    "name": "Discord Rich Presence",
+    "repo": "MegaPiggy/SmolAmeDiscordRpc"
+  }
+]
