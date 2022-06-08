@@ -40,3 +40,11 @@ JSON object where keys are the id of a mod, and the values are the Discord hook 
   "idB": "https://discord.com/api/webhooks/WWW/ZZZ"
 }
 ```
+
+### `NEXUS_KEY`
+
+Nexus API Key that is used to grab the download counts and creation/update dates from a mod. You can get the key [here](https://www.nexusmods.com/users/myaccount?tab=api) Format:
+
+```
+XXX
+```
