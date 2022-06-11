@@ -134,6 +134,44 @@
         "htmlUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/Poisonous-bubba-Mod/master/README.md"
       }
+    },
+    {
+      "name": "Oh F__k",
+      "id": "ohfuck",
+      "description": "Adds an \"oh f__k\" death sound to amelia.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/OhF__k/releases/download/1.0/OhFuck.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/10",
+      "downloadCount": 18,
+      "latestReleaseDate": "2021-12-24T08:12:29Z",
+      "firstReleaseDate": "2021-12-24T08:12:29Z",
+      "nexusCreationTime": "2021-12-24T08:01:53Z",
+      "nexusUpdateTime": "2021-12-24T08:14:13Z",
+      "repo": "https://github.com/MegaPiggy/OhF__k",
+      "version": "1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/OhF__k/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OhF__k/main/README.md"
+      }
+    },
+    {
+      "name": "Discord Rich Presence",
+      "id": "richpresence",
+      "description": "Adds Discord integration into Smol Ame.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/releases/download/1.0/DiscordRpcInstaller.exe",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/11",
+      "downloadCount": 8,
+      "latestReleaseDate": "2022-06-05T20:34:30Z",
+      "firstReleaseDate": "2022-06-05T20:34:30Z",
+      "nexusCreationTime": "2022-06-05T19:54:41Z",
+      "nexusUpdateTime": "2022-06-05T20:27:55Z",
+      "repo": "https://github.com/MegaPiggy/SmolAmeDiscordRpc",
+      "version": "1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SmolAmeDiscordRpc/main/README.md"
+      }
     }
   ]
 }
