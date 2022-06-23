@@ -117,25 +117,6 @@
       }
     },
     {
-      "name": "Poisonous Bubba",
-      "id": "poisonousbubba",
-      "description": "A mod which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
-      "author": "Sh1r0Yaksha",
-      "downloadUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/releases/download/v1.0/Poisonous.bubba.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/9",
-      "downloadCount": 17,
-      "latestReleaseDate": "2021-10-31T14:36:51Z",
-      "firstReleaseDate": "2021-10-31T14:36:51Z",
-      "nexusCreationTime": "2021-10-31T14:48:00Z",
-      "nexusUpdateTime": "2021-10-31T14:48:00Z",
-      "repo": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod",
-      "version": "v1.0",
-      "readme": {
-        "htmlUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/Poisonous-bubba-Mod/master/README.md"
-      }
-    },
-    {
       "name": "Oh F__k",
       "id": "ohfuck",
       "description": "Adds an \"oh f__k\" death sound to amelia.",
