@@ -41,25 +41,6 @@
       }
     },
     {
-      "name": "Increased Speed",
-      "id": "increasedspeed",
-      "description": "Makes you move 2 times faster.",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/IncreasedSpeed/releases/download/1.1.0/IncreasedSpeed.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/3",
-      "downloadCount": 54,
-      "latestReleaseDate": "2021-11-20T02:43:14Z",
-      "firstReleaseDate": "2021-11-20T02:43:14Z",
-      "nexusCreationTime": "2021-04-30T04:31:39Z",
-      "nexusUpdateTime": "2021-05-25T06:59:38Z",
-      "repo": "https://github.com/MegaPiggy/IncreasedSpeed",
-      "version": "1.1.0",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/IncreasedSpeed/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/IncreasedSpeed/main/README.md"
-      }
-    },
-    {
       "name": "Slower Ground Pound",
       "id": "slowgroundpound",
       "description": "Slows down the speed of falling when ground pounding.",
