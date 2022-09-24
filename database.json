@@ -22,6 +22,25 @@
   },
   "releases": [
     {
+      "name": "Infinite Jump",
+      "id": "infinitejump",
+      "description": "Makes it so you can jump without touching the ground!",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/InfiniteJump/releases/download/1.0.1/InfiniteJump.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/2",
+      "downloadCount": 84,
+      "latestReleaseDate": "2021-11-20T02:22:31Z",
+      "firstReleaseDate": "2021-11-20T02:22:31Z",
+      "nexusCreationTime": "2021-04-26T14:08:29Z",
+      "nexusUpdateTime": "2021-05-25T03:59:37Z",
+      "repo": "https://github.com/MegaPiggy/InfiniteJump",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/InfiniteJump/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InfiniteJump/main/README.md"
+      }
+    },
+    {
       "name": "Increased Speed",
       "id": "increasedspeed",
       "description": "Makes you move 2 times faster.",
@@ -79,6 +98,25 @@
       }
     },
     {
+      "name": "SmolTAS",
+      "id": "SmolTAS",
+      "description": "A mod which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
+      "author": "Sh1r0Yaksha",
+      "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/8",
+      "downloadCount": 107,
+      "latestReleaseDate": "2022-01-13T13:20:17Z",
+      "firstReleaseDate": "2021-08-01T14:41:35Z",
+      "nexusCreationTime": "2021-10-02T12:48:11Z",
+      "nexusUpdateTime": "2022-01-13T19:05:08Z",
+      "repo": "https://github.com/Sh1r0Yaksha/SmolTAS",
+      "version": "3.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/SmolTAS/master/README.md"
+      }
+    },
+    {
       "name": "Poisonous Bubba",
       "id": "poisonousbubba",
       "description": "A mod which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
@@ -114,6 +152,25 @@
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/OhF__k/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OhF__k/main/README.md"
+      }
+    },
+    {
+      "name": "Discord Rich Presence",
+      "id": "richpresence",
+      "description": "Adds Discord integration into Smol Ame.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/releases/download/1.0/DiscordRpcInstaller.exe",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/11",
+      "downloadCount": 33,
+      "latestReleaseDate": "2022-06-05T20:34:30Z",
+      "firstReleaseDate": "2022-06-05T20:34:30Z",
+      "nexusCreationTime": "2022-06-05T19:54:41Z",
+      "nexusUpdateTime": "2022-06-05T20:27:55Z",
+      "repo": "https://github.com/MegaPiggy/SmolAmeDiscordRpc",
+      "version": "1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/SmolAmeDiscordRpc/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SmolAmeDiscordRpc/main/README.md"
       }
     }
   ]
