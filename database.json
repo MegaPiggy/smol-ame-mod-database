@@ -22,25 +22,6 @@
   },
   "releases": [
     {
-      "name": "Infinite Jump",
-      "id": "infinitejump",
-      "description": "Makes it so you can jump without touching the ground!",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/InfiniteJump/releases/download/1.0.1/InfiniteJump.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/2",
-      "downloadCount": 84,
-      "latestReleaseDate": "2021-11-20T02:22:31Z",
-      "firstReleaseDate": "2021-11-20T02:22:31Z",
-      "nexusCreationTime": "2021-04-26T14:08:29Z",
-      "nexusUpdateTime": "2021-05-25T03:59:37Z",
-      "repo": "https://github.com/MegaPiggy/InfiniteJump",
-      "version": "1.0.1",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/InfiniteJump/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InfiniteJump/main/README.md"
-      }
-    },
-    {
       "name": "Increased Speed",
       "id": "increasedspeed",
       "description": "Makes you move 2 times faster.",
@@ -76,25 +57,6 @@
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/SlowerGroundPound/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SlowerGroundPound/main/README.md"
-      }
-    },
-    {
-      "name": "Beeg Ame",
-      "id": "beeg_ame",
-      "description": "Adds a playable giant version of amelia.",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/BeegAme/releases/download/1.0.2/BeegAme.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/5",
-      "downloadCount": 50,
-      "latestReleaseDate": "2021-11-20T02:58:32Z",
-      "firstReleaseDate": "2021-11-20T02:58:32Z",
-      "nexusCreationTime": "2021-05-25T04:45:34Z",
-      "nexusUpdateTime": "2021-05-31T00:29:01Z",
-      "repo": "https://github.com/MegaPiggy/BeegAme",
-      "version": "1.0.2",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/BeegAme/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BeegAme/main/README.md"
       }
     },
     {
