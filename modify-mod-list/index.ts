@@ -63,10 +63,12 @@ async function run() {
     newMod.utility = Boolean(utility);
   }
 
-  const nexusId = repoUrl.match(/nexusmods\.com\/smolame\/mods\/([^\/]+)\/?.*/)?.[1];
-
-  if (nexusId) {
-    newMod.nexusId = Number(nexusId);
+  if (nexusUrl){
+    const nexusId = nexusUrl.match(/nexusmods\.com\/smolame\/mods\/([^\/]+)\/?.*/)?.[1];
+  
+    if (nexusId) {
+      newMod.nexusId = Number(nexusId);
+    }
   }
 
   const existingMod = mods.find(
