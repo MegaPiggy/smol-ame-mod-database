@@ -14,11 +14,7 @@
     "nexusCreationTime": "2021-04-26T14:08:29Z",
     "nexusUpdateTime": "2022-11-05T00:59:20Z",
     "repo": "MegaPiggy/SALT",
-    "version": "1.4",
-    "readme": {
-      "htmlUrl": "https://github.com/MegaPiggy/SALT/blob/main/README.md",
-      "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SALT/main/README.md"
-    }
+    "version": "1.4"
   },
   "releases": [
     {
