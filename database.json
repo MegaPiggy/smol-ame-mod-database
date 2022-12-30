@@ -79,44 +79,6 @@
       }
     },
     {
-      "name": "Beeg Ame",
-      "id": "beeg_ame",
-      "description": "Adds a playable giant version of amelia.",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/BeegAme/releases/download/1.0.2/BeegAme.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/5",
-      "downloadCount": 52,
-      "latestReleaseDate": "2021-11-20T02:58:32Z",
-      "firstReleaseDate": "2021-11-20T02:58:32Z",
-      "nexusCreationTime": "2021-05-25T04:45:34Z",
-      "nexusUpdateTime": "2021-05-31T00:29:01Z",
-      "repo": "https://github.com/MegaPiggy/BeegAme",
-      "version": "1.0.2",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/BeegAme/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BeegAme/main/README.md"
-      }
-    },
-    {
-      "name": "SmolTAS",
-      "id": "SmolTAS",
-      "description": "A mod which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
-      "author": "Sh1r0Yaksha",
-      "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
-      "nexusUrl": "https://nexusmods.com/smolame/mods/8",
-      "downloadCount": 118,
-      "latestReleaseDate": "2022-01-13T13:20:17Z",
-      "firstReleaseDate": "2021-08-01T14:41:35Z",
-      "nexusCreationTime": "2021-10-02T12:48:11Z",
-      "nexusUpdateTime": "2022-01-13T19:05:08Z",
-      "repo": "https://github.com/Sh1r0Yaksha/SmolTAS",
-      "version": "3.1.1",
-      "readme": {
-        "htmlUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/SmolTAS/master/README.md"
-      }
-    },
-    {
       "name": "Poisonous Bubba",
       "id": "poisonousbubba",
       "description": "A mod which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
