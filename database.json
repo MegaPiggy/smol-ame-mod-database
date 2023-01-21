@@ -98,6 +98,25 @@
       }
     },
     {
+      "name": "SmolTAS",
+      "id": "SmolTAS",
+      "description": "A mod which can help make tool assisted speedruns (TAS) for the game. Requires SALT to work",
+      "author": "Sh1r0Yaksha",
+      "downloadUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/releases/download/3.1.1/SmolTAS.dll",
+      "nexusUrl": "https://nexusmods.com/smolame/mods/8",
+      "downloadCount": 119,
+      "latestReleaseDate": "2022-01-13T13:20:17Z",
+      "firstReleaseDate": "2021-08-01T14:41:35Z",
+      "nexusCreationTime": "2021-10-02T12:48:11Z",
+      "nexusUpdateTime": "2022-01-13T19:05:08Z",
+      "repo": "https://github.com/Sh1r0Yaksha/SmolTAS",
+      "version": "3.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Sh1r0Yaksha/SmolTAS/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/SmolTAS/master/README.md"
+      }
+    },
+    {
       "name": "Poisonous Bubba",
       "id": "poisonousbubba",
       "description": "A mod which freezes the player when a bubba coin is touched, the level has to be reset to return to normal",
@@ -110,7 +129,11 @@
       "nexusCreationTime": "2021-10-31T14:48:00Z",
       "nexusUpdateTime": "2021-10-31T14:48:00Z",
       "repo": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod",
-      "version": "v1.0"
+      "version": "v1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Sh1r0Yaksha/Poisonous-bubba-Mod/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Sh1r0Yaksha/Poisonous-bubba-Mod/master/README.md"
+      }
     },
     {
       "name": "Oh F__k",
