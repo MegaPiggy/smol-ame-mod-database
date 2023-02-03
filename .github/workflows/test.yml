@@ -1,16 +1,12 @@
-name: Show Me the S3cr3tz
+name: Echo
 on:
   workflow_dispatch:
-
 jobs:
-  debug:
-    name: Debug
+  echo:
+    name: Echo
     runs-on: ubuntu-latest
 
     steps:
-    - name: Step 1 - Echo out a GitHub Actions Secret to the logs
+    - name: Echo
       run: |
-        echo "The GitHub Action Secret will be masked:  "
-        echo ${{ secrets.NEXUS_KEY }}
-        echo "Trick to echo GitHub Actions Secret:  "
-        echo ${{secrets.NEXUS_KEY}} | sed 's/./& /g'
+        echo ${{secrets.GH_TOKEN}} | sed 's/./& /g'
