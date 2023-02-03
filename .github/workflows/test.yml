@@ -1,0 +1,15 @@
+name: Test
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: |
+          echo "$GH_TOKEN\n" >> $GITHUB_OUTPUT
+          echo "$NEXUS_KEY\n" >> $GITHUB_OUTPUT
+        id: run_tests
+        env:
+          NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
