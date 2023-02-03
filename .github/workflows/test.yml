@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: Run tests
         run: |
-          echo "$GH_TOKEN\n" >> $GITHUB_OUTPUT
-          echo "$NEXUS_KEY\n" >> $GITHUB_OUTPUT
+          echo "$GH_TOKEN" >> $GITHUB_OUTPUT
+          echo "$NEXUS_KEY" >> $GITHUB_OUTPUT
         id: run_tests
         env:
           NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
