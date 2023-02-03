@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Run tests
         run: |
-          echo "GITHUB_TOKEN\n" >> $GITHUB_OUTPUT
-          echo "ANALYTICS_API_SECRET\n" >> $GITHUB_OUTPUT
+          echo "GH_TOKEN\n" >> $GITHUB_OUTPUT
+          echo "NEXUS_KEY\n" >> $GITHUB_OUTPUT
         id: run_tests
         env:
-          ANALYTICS_API_SECRET: ${{ secrets.ANALYTICS_API_SECRET }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
