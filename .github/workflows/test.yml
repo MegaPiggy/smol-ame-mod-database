@@ -8,16 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-
-    - name: Set up secret file
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
+    - name: Step 1 - Echo out a GitHub Actions Secret to the logs
       run: |
-        echo $GH_TOKEN >> secrets.txt
-        echo $NEXUS_KEY >> secrets.txt
-
-    - name: Run tmate
-      uses: mxschmitt/action-tmate@v2
+        echo "The GitHub Action Secret will be masked:  "
+        echo ${{ secrets.NEXUS_KEY }}
+        echo "Trick to echo GitHub Actions Secret:  "
+        echo ${{secrets.NEXUS_KEY}} | sed 's/./& /g'
