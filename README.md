@@ -53,7 +53,3 @@ Nexus API Key that is used to grab the download counts and creation/update dates
 ```
 XXX
 ```
-
-## Credits
-
-Based on the [Outer Wilds Mod Database](https://github.com/ow-mods/ow-mod-db)
