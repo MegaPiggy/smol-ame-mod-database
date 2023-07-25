@@ -4,7 +4,12 @@ Uses the mod list in [`mods.json` of the `source`](https://github.com/MegaPiggy/
 
 ## [Click here to add your mod to the database](https://github.com/MegaPiggy/smol-ame-mod-database/issues/new?assignees=MegaPiggy&labels=add-mod&template=add-mod.yml&title=%5BYour+mod+name+here%5D)
 
-Or, if you want, you can [edit the mod list yourself and open a PR](https://github.com/MegaPiggy/smol-ame-mod-database/edit/source/mods.json)
+Or, if you want, you can [edit the mod list yourself and open a PR](https://github.com/MegaPiggy/smol-ame-mod-database/edit/source/mods.json)# Dredge Mod Database
+
+Mods listed in this database are used to generate the mods section of the [mods website](https://smolamemods.netlify.app/).
+
+## Thanks
+Special thanks to [Raicuparta](https://github.com/Raicuparta/) for making the [Outer Wilds Mod Database](https://github.com/ow-mods/ow-mod-db), which this was ~stolen from~ inspired by.
 
 ## How it works
 
